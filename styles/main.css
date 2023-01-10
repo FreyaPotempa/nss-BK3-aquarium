@@ -1,0 +1,147 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+.headerSection  {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-image: url("https://images.unsplash.com/photo-1436891461396-6df41158de09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    margin: 0px
+}
+
+#headline {
+    background: rgba(33, 33, 110, 0.5);
+    margin: 0px auto;
+    width: 400px;
+    border-radius: 15px;
+    padding: 3px 30px;
+    font-size: 15px;
+    text-shadow: -2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+    -2px -2px 0 #000;
+    font-weight: 700;
+    color:#cccccc;
+}
+
+#stupid-margin {
+    margin: 0 auto;
+}
+
+#subhead {
+    background: rgba(33, 33, 110, 0.5);
+    margin: 0px auto;
+    width: 400px;
+    border-radius: 10px;
+    padding: 3px 30px;
+    font-size: 13px;
+    color:#cccccc;
+    text-shadow: -2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+    -2px -2px 0 #000;
+}
+
+ul {
+    text-align: left;
+}
+
+.sidebar {
+    background: rgb(5, 68, 104, 0.5);
+    position: fixed;
+    top: 310px;
+    right: 5px;
+    bottom: 10px;
+    width: 20%;
+    padding: 20px 5px;
+   
+}
+
+#sidebar-img {
+    width: 220px;
+}
+
+hr.dashed {
+    border-top: 3px dashed rgb(58, 64, 74, 0.75);
+  }
+
+#section-head {
+    width: 250px;
+    background: #cccccc;
+    border-radius: 10px;
+    font-weight: 700;
+    color:rgba(33, 33, 110);
+    margin: 5px;
+}
+
+#fish-bowl {
+    display: flex;
+    flex-basis: 33.3333333%;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(33, 33, 110);
+
+
+}
+.fish-img {
+    border-radius: 50%;
+}
+.fish-name {
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.fish-deets {
+    text-align: left
+}
+
+.fish-ind {
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+    width: 25%;
+    background-color: rgba(69, 69, 127, 0.2);
+}
+
+.quote {
+    font-style: italic;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+#locations-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.locations-continent {
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    width: 15%;
+    background-color: rgba(76, 149, 209, 0.2);
+}
+
+.location-img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
