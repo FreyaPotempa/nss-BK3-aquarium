@@ -88,11 +88,15 @@ hr.dashed {
     margin: 5px;
 }
 
-#fish-bowl {
+.fishList {
     display: flex;
-    flex-basis: 33.3333333%;
-    justify-content: space-evenly;
     flex-flow: row wrap;
+}
+
+.fish-card {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
@@ -100,12 +104,13 @@ hr.dashed {
 
 
 }
-.fish-img {
+.fish__image {
     border-radius: 50%;
 }
 .fish-name {
     font-weight: 700;
     font-size: 18px;
+    text-align: center
 
 }
 .fish-deets {
@@ -116,7 +121,6 @@ hr.dashed {
     border-radius: 10px;
     margin: 8px;
     padding: 8px;
-    width: 25%;
     background-color: rgba(69, 69, 127, 0.2);
 }
 
